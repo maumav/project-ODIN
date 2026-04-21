@@ -1,2 +1,2 @@
 # project-01
-project-01 - make typography-focused webpage 
+project-01 - Odin Project JS 
