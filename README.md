@@ -1,2 +1,2 @@
-# project-01
-project-01 - Odin Project JS 
+# project-ODIN
+project-01 - Odin Project JS Rock Paper Scissor
