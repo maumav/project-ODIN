@@ -1,0 +1,10 @@
+getComputer choice 
+    randomize between rock, paper, Scissors
+
+ while (getComputerChoice === 'rock') {
+  console.log("Computer chooses ROCK.")
+ } else if (getComputerChoice === 'paper') {
+  console.log("Computer chooses PAPER.")
+  } else if (getComputerChoice === 'scissors') {
+    console.log("Computer chooses SCISSORS.")
+  }
