@@ -18,22 +18,27 @@ const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
 
 function playRound(humanChoice, computerChoice) {
+    console.log("You chooses " + humanChoice + " and " + "computer chooses " + computerChoice)
 
-    if (humanChoice === 'paper' && computerChoice === 'rock') {
-        console.log("Human wins!")
+    if (humanChoice === computerChoice) {
+        console.log("Tied")
        } else if (
+        (humanChoice === 'paper' && computerChoice === 'rock') ||
        (humanChoice === 'scissors' && computerChoice === 'paper') ||
        (humanChoice === 'rock' && computerChoice === 'scissors') 
-       humanScore++;
-        )
-        console.log("Human wins!! ")
+        ) {
+            console.log("Human wins!")
+            humanScore++;
+        }
+        else {
+            computerScore++;
+            console.log("Computer Wins");
+        }
     
-        } {
-          console.log("Human wins!!!")
-        } 
-       
-        console.log("You chooses " + humanChoice + " and " + "computer chooses " + computerChoice)
 }
+       
+       
+
 playRound(humanSelection, computerSelection)
 
 // while (getComputerChoice === 'rock') {
