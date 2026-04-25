@@ -34,16 +34,4 @@ function playRound(humanChoice, computerChoice) {
             computerScore++;
             console.log("Computer Wins");
         }
-    
-}
-       
-       
-
 playRound(humanSelection, computerSelection)
-
-// while (getComputerChoice === 'rock') {
-//     console.log("Computer chooses ROCK.")
-//    } else if (getComputerChoice === 'paper') {
-//     console.log("Computer chooses PAPER.")
-//    }
-
