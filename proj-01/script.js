@@ -34,4 +34,6 @@ function playRound(humanChoice, computerChoice) {
             computerScore++;
             console.log("Computer Wins");
         }
-playRound(humanSelection, computerSelection)
+    }
+    playRound(humanSelection, computerSelection)
+
